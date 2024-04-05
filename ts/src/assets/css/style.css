@@ -3,15 +3,16 @@ body{
   color: #6b6b6b;
   line-height: 1.8;
   background-color: #eee8e854;
+  
 }
 
 .slaca-txt{
   background-color:#FFB354 ;
-  width: 220px;
-height: 68px;
-gap: 0px;
-opacity: 0px;
-
+  width: 100px;
+  height: 68px;
+  margin: 0px;
+  padding: 0px;
+  
 }
 
 
@@ -76,9 +77,57 @@ aside.left-panel{
   text-align: right;
 }
 
+.content{
+width: 1146px;
+height: 68px;
+left: 220px;
+gap: 0px;
+opacity: 0px;
+
+}
 
 
+.main-content{
+    width: 60%;
+    margin-left: 20%;
+    padding: 7px 6px 7px; 
+    box-sizing: border-box; 
+   
+    
+}
+
+.video{
+  width: 66%;
+  float: left;
+}
+
+.video:first-child{
+  margin-right: 1.5%;
+}
+
+.video:last-child{
+  margin-left: 1.5%;
+}
+
+.secdeta{
+  overflow: auto;
+}
+
+.detalhes{
+  width: 32%;
+  float: left;
+}
+
+.detalhes:nth-child(3n - 2){
+  margin-right: 2%;
+}
+
+.detalhes:nth-child(3n){
+  margin-left: 2%;
+}
   
+
+
 /*
 
 
